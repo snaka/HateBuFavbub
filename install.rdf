@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="HateBuFavbub@snaka.openid.ne.jp"
+                   em:name="HateBuFavbub"
+                   em:description="Watching hatebu favorites."
+                   em:version="0.0.1"
+                   em:creator="snaka.gml@gmail.com"
+                   em:homepageURL="http://d.hatena.ne.jp/snaka72/"
+                   em:optionsURL="chrome://HateBuFavbub/content/preference.xul">
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>3.5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </RDF:Description>
+</RDF:RDF>

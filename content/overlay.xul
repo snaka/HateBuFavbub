@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<overlay id="HateBuFavbubOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+// Import the javascript
+<script type="application/x-javascript" src="chrome://HateBuFavbub/content/HateBuFavbub.js"/>
+</overlay>
+

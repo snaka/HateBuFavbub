@@ -1,0 +1,6 @@
+content HateBuFavbub  content/
+
+overlay chrome://browser/content/browser.xul   chrome://HateBuFavbub/content/overlay.xul
+
+locale   hateBUZZ  ja-JP  locale/ja-JP/
+locale   hateBUZZ  en-US  locale/en-US/

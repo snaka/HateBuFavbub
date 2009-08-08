@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            id="hateBuFavbub-prefs"
+            title="prefs">
+  <prefpane id="preferences">
+    <preferences>
+      <preference id="label" name="extensions.hateBuFavbub.label" type="string"/>
+      <preference id="key"   name="extensions.hateBuFavbub.key"   type="string"/>
+    </preferences>
+    <vbox>
+      <hbox>
+        <label value="url prefix: "/>
+        <textbox id="prefix-text" preference="label"/>
+      </hbox>
+      <hbox>
+        <label value="hook key: "/>
+        <textbox id="key-text" preference="key"/>
+      </hbox>
+    </vbox>
+  </prefpane>
+</prefwindow>
+
