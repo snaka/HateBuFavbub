@@ -5,7 +5,7 @@
                    em:id="HateBuFavbub@snaka.openid.ne.jp"
                    em:name="HateBuFavbub"
                    em:description="Watching hatebu favorites."
-                   em:version="0.1.0"
+                   em:version="0.2.0"
                    em:creator="snaka.gml@gmail.com"
                    em:homepageURL="http://d.hatena.ne.jp/snaka72/"
                    em:optionsURL="chrome://HateBuFavbub/content/preference.xul">

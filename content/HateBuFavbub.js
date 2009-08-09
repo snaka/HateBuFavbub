@@ -1,6 +1,7 @@
 window.HateBuFavbub = (function() {
 
   let debug = function(msg) dump("HateBuFavbub: " + msg + "\n");
+//  let debug = function(msg) alert(msg);
 
   debug("load subscripts ...");
   loadSubscripts([
@@ -54,6 +55,21 @@ window.HateBuFavbub = (function() {
   }
 
   let Growl = (function() {
+    if (navigator.platform == 'Win32' 
+    && Application.extensions.has("growlgntp@brian.dunnington")) {
+      let growl = Cc["@growlforwindows.com/growlgntp;1"]
+                  .getService().wrappedJSObject;
+      growl.register(
+        'HateBUZZ',
+        'http://www.hatena.ne.jp/images/top/side_b.gif',
+        [{ name : 'notify', displayName : 'notify' } ]
+      );
+      return {
+        notify: function(title, text, icon) {
+          growl.notify( "HateBuFavbub", "notify", title, text, icon);
+        }
+      };
+    }
     return {
       notify: function (title, message, icon, url, callback) {
         debug("icon:" + icon);
